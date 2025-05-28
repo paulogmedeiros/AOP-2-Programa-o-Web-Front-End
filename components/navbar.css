@@ -1,0 +1,54 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 5rem;
+  background-color: var(--bg-color-nav);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+header a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+header a h1 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+header a img {
+  height: 24px;
+}
+
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+header nav ul li a:hover{
+  background-color: var(--hover-color);
+  color: #fff;
+}
+
+header a:hover {
+    color : var(--hover-color);
+}
