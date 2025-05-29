@@ -5,15 +5,9 @@ Aqui, você pode explorar diferentes gêneros literários, como **Ficção**, **
 
 ---
 
-## ✨ Visão Geral
-
-O projeto foi desenvolvido com foco em acessibilidade, responsividade e design limpo. É ideal para portfólios, blogs literários ou estudos de estruturação de páginas com HTML + CSS puro.
-
----
-
 ## 📷 Preview
 
-![preview do site](./assets/preview.png)
+![preview do site](./assets/blog.png)
 
 ---
 
@@ -36,5 +30,4 @@ O projeto foi desenvolvido com foco em acessibilidade, responsividade e design l
 
 ---
 
-## 📁 Estrutura de Pastas
 
