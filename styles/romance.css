@@ -1,3 +1,125 @@
 @import url(global.css);
 @import url(../components/navbar.css);
 @import url(../components/footer.css);
+
+.sobre {
+  background-image: url("../assets/romance.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+.sobre::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.sobre-conteudo {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.sobre-conteudo h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-conteudo p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.sobre-blog {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  color: #111827;
+  text-align: center;
+}
+
+.sobre-blog .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sobre-blog h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.sobre-blog p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.livros-destaque {
+  padding: 4rem 1rem;
+  background-color: #ffffff; 
+}
+
+.livros-destaque .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.livros-destaque h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111827;
+}
+
+.cards-livros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card-livro {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.card-livro:hover {
+  transform: translateY(-5px);
+}
+
+.card-livro img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-livro h3 {
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: #1f2937;
+}
+
+.card-livro p {
+  font-size: 0.95rem;
+  margin: 0 1rem 1rem;
+  color: #555;
+}
